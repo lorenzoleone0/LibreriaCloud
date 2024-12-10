@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "Libreria.Controllers.LibriController",
+    "Method": "GetLibri",
+    "RelativePath": "api/v1/Libri",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controllers.LibriController",
+    "Method": "EliminaLibroAsync",
+    "RelativePath": "api/v1/Libri/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controllers.LibriController",
+    "Method": "ModificaLibroAsync",
+    "RelativePath": "api/v1/Libri/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Libreria.Request.ModificaLibroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controllers.LibriController",
+    "Method": "CreateLibroAsync",
+    "RelativePath": "api/v1/Libri/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Libreria.Request.CreateLibroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controller.TokenController",
+    "Method": "CreaTokenAsync",
+    "RelativePath": "api/v1/Token/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Libreria.Request.CreateTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controllers.UtentiController",
+    "Method": "GetUtenteById",
+    "RelativePath": "api/v1/Utenti/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Libreria.Controllers.UtentiController",
+    "Method": "CreateUtente",
+    "RelativePath": "api/v1/Utenti/new",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Libreria.Request.CreateUtenteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
